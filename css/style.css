@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(225, 212, 212);
+}
+
+#cabeçalho{
+    background-color: yellow;
+    text-align: center; /* Centralizar */
+    height: 150px;
+}
+
+h1{
+    color: rgb(80, 66, 66);
+    padding-top: 30px;
+    font-size: 35pt;
+}
+.branco{
+    color: white;
+}
+
+#menu{
+    padding-top: 20px;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none; /*Tirar o *___* do link*/
+    margin: 20px;
+}
+
+a:hover{
+    background: white;
+    border-radius: 10px;
+    
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+#postagens{
+    width: 650px;
+
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+#postagens, #lateral{ 
+    
+    padding-top: 25px;
+}
+
+#rodape{
+    width: 920px;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.title{
+    background-color: rgb(180, 180, 186);
+    text-align: center;
+}
+
+.docs{
+    padding-top: 5px;
+}
+
+.links, a:hover{
+    color: rgb(47, 169, 36);
+}
+
+.lateral2{
+    background-color: rgb(180, 180, 186);
+}
+
+.categorias{
+    font-size: 15pt;
+}
